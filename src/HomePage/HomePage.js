@@ -1,4 +1,6 @@
 import React from 'react';
+import PieChart from './PieChart';
+import DonutChart from './Donutchart';
 
 function HomePage() {
   return (
@@ -63,14 +65,12 @@ function HomePage() {
             
             <article>
                 <h2>Chart</h2>
-                <p>
-                    <canvas id="myChart" width="400" height="400" aria-label="A sample chart of a user's budget plan"></canvas>
-                </p>
+                <PieChart/>
             </article>
 
             <article>
                 <h2>Donut Chart</h2>
-                <div id="donutChart" width-="400" height="400"></div>
+                <DonutChart/>
             </article>
 
         </section>
